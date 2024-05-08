@@ -1,0 +1,44 @@
+  .dzban{
+    animation-name: chodzi;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+
+  img{
+    width: 200px;
+  }
+
+  @keyframes chodzi {
+    0%{
+        margin-left: 0px;
+    }
+    25%{
+        margin-top: 30px;
+    }
+    50%{
+        margin-left: 80px;
+    }
+    60%{
+        margin-top: -40px;
+        rotate: 20rad;
+    }
+    75%{
+        margin-top: 0px;
+    }
+    100%{
+        margin-left: 0px;
+    }
+  }
+
+  #kontener{
+    height: 500px;
+  }
+
+  img,button,.przycisk,.dzban{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }

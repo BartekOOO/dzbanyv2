@@ -1,0 +1,107 @@
+#kontener{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    background-color:#333;
+    border: dotted white 1px;
+    padding: 10px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #222;
+}
+
+
+
+input, textarea, button{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 4px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.przycisk{
+    padding: 10px;
+    font-weight: bold;
+    width: 250px;
+}
+
+.przycisk:hover{
+    background-color: #111;
+    cursor: pointer;
+}
+
+input::placeholder{
+    color: #ddd;
+}
+
+input:focus, textarea:focus{
+    border: none;
+    outline: none;
+}
+
+.napis1{
+    color: white;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 26px;
+}
+
+.napis2{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 26px;
+}
+
+.napis3{
+    color:chartreuse;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.napis4{
+    color:crimson;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+a,a:visited{
+    text-decoration: none;
+}
+
+table{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+table:hover{
+    cursor: pointer;
+}
+
+tr, th, td {
+    border: solid white 1px; /* styl obramowania */
+    padding: 0; /* zerowanie paddingu */
+    border-spacing: 0; /* zerowanie odstępów */
+    border-collapse: collapse; /* łączenie obramowań */
+    text-align: center;
+    padding: 5px;
+}
+
+td:hover{
+    background-color: #111;
+}
